@@ -1,6 +1,6 @@
 # About
 
-Add some information about your project here.
+6 Channel Relay based on XIAO ESP32C6 Firmware.
 
 # Installation
 

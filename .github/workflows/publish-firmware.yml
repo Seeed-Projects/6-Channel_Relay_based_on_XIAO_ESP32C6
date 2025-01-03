@@ -14,9 +14,9 @@ jobs:
     with:
       #### Modify below here to match your project ####
       files: |
-        example/six_channel_relay_based_on_xiao_esp32c6
-      esphome-version: 2024.10.3
-      combined-name: project-template
+        example/six_channel_relay_based_on_xiao_esp32c6.yaml
+      esphome-version: 2024.12.2
+      # combined-name: project-template
       #### Modify above here to match your project ####
 
       release-summary: ${{ github.event.release.body }}

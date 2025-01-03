@@ -3,7 +3,7 @@ name: CI
 on:
   pull_request:
     paths:
-      - '*.yaml'
+      - 'example/six_channel_relay_based_on_xiao_esp32c6.yaml'
       - '.github/workflows/ci.yml'
   schedule:
     - cron: '0 0 * * *'
@@ -27,8 +27,7 @@ jobs:
 
         esphome-version:
           - stable
-          - beta
-          - dev
+
     steps:
       - name: Checkout source code
         uses: actions/checkout@v4.1.7
