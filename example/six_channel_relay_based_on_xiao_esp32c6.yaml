@@ -2,12 +2,6 @@ substitutions:
   name: "seeed-6-channel-relay"
   friendly_name: "Seeed Studio 6 Channel Relay"
 
-external_components:
-  - source:
-      type: git
-      url: https://github.com/discodyer/6-Channel_Relay_based_on_XIAO_ESP32C6
-      ref: main
-
 esphome:
   name: "${name}"
   friendly_name: "${friendly_name}"
@@ -32,6 +26,12 @@ esp32:
   framework:
     type: esp-idf
 
+external_components:
+  - source:
+      type: git
+      url: https://github.com/discodyer/6-Channel_Relay_based_on_XIAO_ESP32C6
+  refresh: 0s
+      
 # Enable logging
 logger:
   level: DEBUG  # Set log level to DEBUG, INFO, WARNING, ERROR, or CRITICAL
