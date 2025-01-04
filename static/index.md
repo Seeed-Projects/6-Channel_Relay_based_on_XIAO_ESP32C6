@@ -4,6 +4,8 @@
 
 <div style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/XIAO/Gadgets/6_channel_wifi_relay/simplified_diagram_with_con.png" style={{width: 600, height: 'auto'}}/></div>
 
+[![Seeed Studio 6 Channel WiFi relay](https://files.seeedstudio.com/wiki/XIAO/Gadgets/6_channel_wifi_relay/simplified_diagram_with_con.png)](https://www.seeedstudio.com/)
+
 # Installation
 
 You can use the button below to install the pre-built firmware directly to your device via USB from the browser.
